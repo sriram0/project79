@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>C79 Project</title>
+        <style>
+            body {
+                /* The image used */
+                background-image: url("background.jpeg");
+                
+                /* Set a specific height */
+                min-height: 500px;
+                
+                /* Create the parallax scrolling effect */
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            h1, div{
+                font-family: cursive;
+                background-color: rgba(128, 128, 128, 0.8);
+                
+                text-align: center;
+                color: rgb(199, 0, 0);
+            }
+            div{
+                float: left;
+                margin: 15px;
+                padding: 20px;
+            }
+            img{
+                width: 20px;
+            }
+            tr{
+                border-bottom: 1px solid black;
+            }
+        </style>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <h1>Arnav's Pizzaria</h1>
+        <div class="col-6-lg col-6-md col-8-sm col-12-xs">
+            Arnav's Pizzaria<br>
+            Founder: Arnav<br>
+            Wedsite Developer: Sriram<br>
+            Cooks and Waiters: Job Slots Available! Register <a href="#">here</a>.<br>
+            Welcome to Arnav's Pizzaria, where we have every kind of pizza around the world you like!
+            Search for your favourite pizza in our menu, dine in, take-away or delivery.
+        </div>
+        <div class="col-6-lg col-6-md col-4-sm col-12-xs">
+            Arnav's Pizzaria Menu<br>
+            <table>
+                <tr id="table-head">
+                    <th></th>
+                    <th>Price</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td><img src="pizza.jpeg"></td>
+                    <td>$28</td>
+                    <td class="names">Pepperoni Pizza</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="pizza.jpeg"></td>
+                    <td>$26</td>
+                    <td class="names">Hawaiian Pizza</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    <td><img src="pizza.jpeg"></td>
+                    <td>$20</td>
+                    <td class="names">Apizza</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="pizza.jpeg"></td>
+                    <td>$20</td>
+                    <td class="names">California-Style Pizza</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="pizza.jpeg"></td>
+                    <td>$20</td>
+                    <td class="names">Caprese Pizza</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="pizza.jpeg"></td>
+                    <td>$20</td>
+                    <td class="names">Chicago-style Pizza</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="pizza.jpeg"></td>
+                    <td>$23</td>
+                    <td class="names">Detroit-Style Pizza</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="pizza.jpeg"></td>
+                    <td>$18</td>
+                    <td class="names">Fugazza</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="pizza.jpeg"></td>
+                    <td>$18</td>
+                    <td class="names">Fugazzeta</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="pizza.jpeg"></td>
+                    <td>$22</td>
+                    <td class="names">Garlic Fingers</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="pizza.jpeg"></td>
+                    <td>$15</td>
+                    <td class="names">Grandma Pie</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="pizza.jpeg"></td>
+                    <td>$20</td>
+                    <td class="names">Greek-Style Pizza</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="pizza.jpeg"></td>
+                    <td>$20</td>
+                    <td class="names">Grilled Pizza</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="pizza.jpeg"></td>
+                    <td>$20</td>
+                    <td class="names">Pinsa romana</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="pizza.jpeg"></td>
+                    <td>$20</td>
+                    <td class="names">Pizza ai frutti di mare</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="pizza.jpeg"></td>
+                    <td>$20</td>
+                    <td class="names">Pizza al padellino</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="pizza.jpeg"></td>
+                    <td>$20</td>
+                    <td class="names">Pizza al taglio</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="pizza.jpeg"></td>
+                    <td>$20</td>
+                    <td class="names">Pizza alla diavola</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="pizza.jpeg"></td>
+                    <td>$20</td>
+                    <td class="names">Pizza carbonara</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="pizza.jpeg"></td>
+                    <td>$20</td>
+                    <td class="names">Pizza e fichi</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="pizza.jpeg"></td>
+                    <td>$20</td>
+                    <td class="names">Pizza fiori de zucca</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="pizza.jpeg"></td>
+                    <td>$20</td>
+                    <td class="names">Pizza fritta</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="pizza.jpeg"></td>
+                    <td>$20</td>
+                    <td class="names">Pizza Grandiosa</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="pizza.jpeg"></td>
+                    <td>$20</td>
+                    <td class="names">Pizza ortolana</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="pizza.jpeg"></td>
+                    <td>$20</td>
+                    <td class="names">Pizza pesto Genovese</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="pizza.jpeg"></td>
+                    <td>$20</td>
+                    <td class="names">Pizza prosciutto</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="pizza.jpeg"></td>
+                    <td>$20</td>
+                    <td class="names">Pizza Romana</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="pizza.jpeg"></td>
+                    <td>$20</td>
+                    <td class="names">Pizza vegetariana</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="pizza.jpeg"></td>
+                    <td>$20</td>
+                    <td class="names">Prosciutto e funghi pizza</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="pizza.jpeg"></td>
+                    <td>$20</td>
+                    <td class="names">Pugliese Pizza</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="pizza.jpeg"></td>
+                    <td>$20</td>
+                    <td class="names">Quattro stagioni pizza</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="pizza.jpeg"></td>
+                    <td>$20</td>
+                    <td class="names">Stuffed Pizza</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><img src="pizza.jpeg"></td>
+                    <td>$20</td>
+                    <td class="names">Tomato Pie</td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            Suggest a new pizza<br>
+            <input placeholder="Enter your pizza sugestion"><button>Submit <img src="pizza.jpeg"></button>
+        </div>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        var add1 = "<tr><td><img src='pizza.jpeg'></td><td>$20</td><td>";
+        var add2 = "</td></tr>";
+        var types = [];
+        
+        var allnames = document.getElementsByClassName("names");
+        for(var i=2;i< allnames.length;i++){
+            types.push(allnames[i].innerHTML);
+        }
+        console.log(types)
+        $("button").on("click", function(){
+            var inputV = $("input").val();
+            types.push(inputV);
+            types.sort();
+            $("tr").each(function(i, e){
+                if(types[i]===inputV){
+                    $(e).after(add1+inputV+add2);
+                }
+            });
+        });
+    </script>
+</html>
